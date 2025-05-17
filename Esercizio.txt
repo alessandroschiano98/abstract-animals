@@ -3,7 +3,7 @@ nome repo : abstract-animals
 
 
 
-Esercizio 1 : classi astratte
+Esercizio 1 : classi astratte (RIPRENDERE A 12MIN)
 
 Dobbiamo realizzare un programma che rappresenti il regno animale.
 Creiamo quindi una classe astratta Animale e delle classi che la estendono : Cane, Passerotto, Aquila, Delfino

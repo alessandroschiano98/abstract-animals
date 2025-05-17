@@ -1,5 +1,5 @@
 package org.lessons.java.RegnoAnimale;
 
-public class Cane {
-    
+public class Animale {
+
 }
