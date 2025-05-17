@@ -1,9 +1,11 @@
-package org.lessons.java.RegnoAnimale.Animali;
+package org.lessons.java.RegnoAnimale.ClassiAstratte;
 
 import org.lessons.java.RegnoAnimale.Animale;
-import org.lessons.java.RegnoAnimale.Azioni.Verso;
+import org.lessons.java.RegnoAnimale.Interfacce.Verso;
 
 public class Passerotto extends Animale implements Verso {
+
+
 
     @Override
     public void verso() {
