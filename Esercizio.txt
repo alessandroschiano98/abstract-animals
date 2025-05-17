@@ -2,7 +2,6 @@ nome repo : abstract-animals
 
 
 
-
 Esercizio 1 : classi astratte (RIPRENDERE A 12MIN)
 
 Dobbiamo realizzare un programma che rappresenti il regno animale.
