@@ -13,7 +13,7 @@ public class Passerotto extends Animale implements Verso {
 
     @Override
     public void verso() {
-        System.out.println("Tzuikk Tzuiik");
+        System.out.println("Cinguettio");
     }
 
     @Override

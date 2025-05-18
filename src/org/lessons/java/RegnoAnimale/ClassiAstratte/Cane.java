@@ -11,7 +11,7 @@ public class Cane extends Animale implements Verso {
 
     @Override
     public void verso() {
-        System.out.println("wHOOFWhooof");
+        System.out.println("Abbaia");
     }
 
     @Override
