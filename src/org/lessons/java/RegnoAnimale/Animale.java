@@ -41,6 +41,11 @@ public abstract class Animale {
 
     public abstract void mangia();
 
+    public void dorme(){
+        System.out.println("ZzZzZz");
+
+    }
+
 
 
 }

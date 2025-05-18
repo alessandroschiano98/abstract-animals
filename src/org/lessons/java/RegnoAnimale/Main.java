@@ -13,20 +13,23 @@ public class Main {
 
         aquilaReale.mangia();
         aquilaReale.verso();
+        aquilaReale.dorme();
 
         Animale caneMaremmano = new Cane("PastoreMaremmano", "Canide", "Resiste alle temperature basse");
-
         caneMaremmano.mangia();
         caneMaremmano.verso();
+        aquilaReale.dorme();
 
         Animale delfinoGrampo = new Delfino("DelfinoGrampo", "Cetaceo", "Vive sott'acqua");
         delfinoGrampo.mangia();
         delfinoGrampo.verso();
+        aquilaReale.dorme();
 
-        Animale passerottoGiallo = new Passerotto("Fringuello alpino", "Volatile", "Può raggiungere fino a 3500m d'altezza");
+        Animale passerottoGiallo = new Passerotto("Fringuello alpino", "Volatile",
+                "Può raggiungere fino a 3500m d'altezza");
         passerottoGiallo.mangia();
         passerottoGiallo.verso();
-
+        aquilaReale.dorme();
     }
 
 }
