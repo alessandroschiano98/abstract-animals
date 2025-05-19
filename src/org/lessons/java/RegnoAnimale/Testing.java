@@ -1,8 +1,17 @@
 package org.lessons.java.RegnoAnimale;
+
+
 public class Testing {
 
-    public static void main(String[] args) {
-        
+    public void nuota() {
+        System.out.println("--sto nuotando--");
+
     }
+
+    public void vola(){
+        System.out.println("--sto volando--");
+    }
+
+
 
 }

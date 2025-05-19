@@ -19,13 +19,13 @@ public class Main {
         System.out.println(caneMaremmano.toString());
         caneMaremmano.mangia();
         caneMaremmano.verso();
-        aquilaReale.dorme();
+        caneMaremmano.dorme();
 
         Animale delfinoGrampo = new Delfino("Delfino Grampo", "Cetaceo", "Vive sott'acqua");
         System.out.println(delfinoGrampo.toString());
         delfinoGrampo.mangia();
         delfinoGrampo.verso();
-        aquilaReale.dorme();
+        delfinoGrampo.dorme();
 
         Animale passerottoAlpino = new Passerotto("Fringuello Alpino", "Volatile",
                 "Può raggiungere fino a 3500m d'altezza");
