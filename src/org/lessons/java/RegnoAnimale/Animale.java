@@ -32,8 +32,8 @@ public abstract class Animale {
         return this.caratteristica;
     }
 
-    public void setCarrateristica(String carrateristica) {
-        this.caratteristica = carrateristica;
+    public void setCaratteristica(String caratteristica) {
+        this.caratteristica = caratteristica;
     }
 
     public abstract void verso();
