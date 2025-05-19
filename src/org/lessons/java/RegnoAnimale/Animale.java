@@ -2,8 +2,8 @@ package org.lessons.java.RegnoAnimale;
 
 public abstract class Animale {
 
-    private String nome; // ! NOME ANIMALE(LEONE, TIGRE ECC)
-    private String tipologia; // ! DI TERRA, DI MARE, VOLATILE ECC
+    private String nome; // ! ES: TIGRE
+    private String tipologia; // ! ES: VOLATILE
     private String caratteristica; // ! ES: VELOCE
 
     public Animale(String nome, String tipologia, String caratteristica) {
@@ -36,16 +36,17 @@ public abstract class Animale {
         this.caratteristica = carrateristica;
     }
 
-
     public abstract void verso();
 
     public abstract void mangia();
+    
 
-    public void dorme(){
-        System.out.println("ZzZzZz");
+    public void dorme() {
+        System.out.println("--sta dormendo--");
 
     }
 
 
+    
 
 }

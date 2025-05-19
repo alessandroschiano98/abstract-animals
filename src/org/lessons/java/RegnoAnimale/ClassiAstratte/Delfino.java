@@ -1,8 +1,9 @@
 package org.lessons.java.RegnoAnimale.ClassiAstratte;
 import org.lessons.java.RegnoAnimale.Animale;
-import org.lessons.java.RegnoAnimale.Interfacce.Verso;
+import org.lessons.java.RegnoAnimale.Interfacce.Nuotante;
 
-public class Delfino extends Animale implements Verso {
+
+public class Delfino extends Animale implements Nuotante{
 
     public Delfino(String nome, String tipologia, String caratteristica){
         super(nome, tipologia,caratteristica);
@@ -11,7 +12,7 @@ public class Delfino extends Animale implements Verso {
 
     @Override
     public void verso() {
-        System.out.println("Frigge");
+        System.out.println("!!!Frigge!!!");
     }
 
     @Override
@@ -19,4 +20,13 @@ public class Delfino extends Animale implements Verso {
         System.out.println("Mangia seppie e crostacei");
     }
 
+    @Override
+    public String toString(){
+        return getNome().toUpperCase();
+    }
+
+    @Override
+    public void nuota() {
+        System.out.println(".. Sto nuotando .. ");
+    }
 }

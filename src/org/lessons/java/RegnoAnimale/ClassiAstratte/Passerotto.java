@@ -1,9 +1,10 @@
 package org.lessons.java.RegnoAnimale.ClassiAstratte;
 
 import org.lessons.java.RegnoAnimale.Animale;
-import org.lessons.java.RegnoAnimale.Interfacce.Verso;
+import org.lessons.java.RegnoAnimale.Interfacce.Volante;
 
-public class Passerotto extends Animale implements Verso {
+
+public class Passerotto extends Animale implements Volante{
 
     public Passerotto(String nome, String tipologia, String caratteristica){
         super(nome, tipologia,caratteristica);
@@ -13,12 +14,23 @@ public class Passerotto extends Animale implements Verso {
 
     @Override
     public void verso() {
-        System.out.println("Cinguettio");
+        System.out.println("!!!Cinguettio!!!!");
     }
 
     @Override
     public void mangia() {
         System.out.println("Mangia semi e cereali");
+    }
+
+
+    @Override
+    public String toString(){
+        return getNome().toUpperCase();
+    }
+
+    @Override
+    public void vola() {
+        System.out.println(".. Sto volando .. ");
     }
 
 }

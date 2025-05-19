@@ -9,27 +9,32 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Animale aquilaReale = new Aquila("AquilaReale", "Volatile", "Velocità sopra la media");
-
+        Animale aquilaReale = new Aquila("Aquila Reale", "Volatile", "Velocità sopra la media");
+        System.out.println(aquilaReale.toString());
         aquilaReale.mangia();
         aquilaReale.verso();
         aquilaReale.dorme();
 
-        Animale caneMaremmano = new Cane("PastoreMaremmano", "Canide", "Resiste alle temperature basse");
+        Animale caneMaremmano = new Cane("Pastore Maremmano", "Canide", "Resiste alle basse temperature");
+        System.out.println(caneMaremmano.toString());
         caneMaremmano.mangia();
         caneMaremmano.verso();
         aquilaReale.dorme();
 
-        Animale delfinoGrampo = new Delfino("DelfinoGrampo", "Cetaceo", "Vive sott'acqua");
+        Animale delfinoGrampo = new Delfino("Delfino Grampo", "Cetaceo", "Vive sott'acqua");
+        System.out.println(delfinoGrampo.toString());
         delfinoGrampo.mangia();
         delfinoGrampo.verso();
         aquilaReale.dorme();
 
-        Animale passerottoGiallo = new Passerotto("Fringuello alpino", "Volatile",
+        Animale passerottoAlpino = new Passerotto("Fringuello Alpino", "Volatile",
                 "Può raggiungere fino a 3500m d'altezza");
-        passerottoGiallo.mangia();
-        passerottoGiallo.verso();
-        aquilaReale.dorme();
+        System.out.println(passerottoAlpino.toString());
+        passerottoAlpino.mangia();
+        passerottoAlpino.verso();
+        passerottoAlpino.dorme();
+    
+        
     }
 
 }

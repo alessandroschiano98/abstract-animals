@@ -1,7 +1,6 @@
 package org.lessons.java.RegnoAnimale.Interfacce;
 
-public interface Verso{
-    void verso();
-    
+public interface Nuotante {
+    void nuota();
 
 }
