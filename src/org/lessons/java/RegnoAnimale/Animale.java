@@ -28,7 +28,7 @@ public abstract class Animale {
         this.tipologia = tipologia;
     }
 
-    public String getCarrateristica() {
+    public String getCaratteristica() {
         return this.caratteristica;
     }
 
