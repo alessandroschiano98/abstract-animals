@@ -6,7 +6,7 @@ import org.lessons.java.RegnoAnimale.ClassiAstratte.Aquila;
 import org.lessons.java.RegnoAnimale.ClassiAstratte.Cane;
 import org.lessons.java.RegnoAnimale.ClassiAstratte.Delfino;
 import org.lessons.java.RegnoAnimale.ClassiAstratte.Passerotto;
-import org.lessons.java.RegnoAnimale.TestingMain;
+
 
 public class Main {
 
