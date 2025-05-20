@@ -18,6 +18,7 @@ public class Cane extends AnimaleAstratto{
         System.out.println("Mangia pesce azzurro");
     }
 
+
     @Override
     public String toString(){
         return "Cane: " + getNome().toUpperCase() + " - " + getTipologia() + " - " + getCaratteristica();

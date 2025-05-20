@@ -17,7 +17,7 @@ public class Aquila extends AnimaleAstratto implements Volante {
 
     @Override
     public void mangia() {
-        System.out.println("Mangia marmotte, conigli o lepri, dunque piccoli e medi mammiferi");
+        System.out.println("Mangia marmotte, conigli o lepri");
     }
 
     @Override
@@ -25,9 +25,10 @@ public class Aquila extends AnimaleAstratto implements Volante {
         return "Aquila: " + getNome().toUpperCase() + " - " + getTipologia() + " - " + getCaratteristica();
     }
 
+
     @Override
     public void vola() {
-        System.out.println(".. Sto volando .. ");
+        System.out.println(".. Sta volando .. ");
     }
 
 }

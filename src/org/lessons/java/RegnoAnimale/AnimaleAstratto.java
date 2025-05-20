@@ -42,7 +42,7 @@ public abstract class AnimaleAstratto {
     
 
     public void dorme() {
-        System.out.println("--sta dormendo--");
+        System.out.println("--ZzZzZzZzZzZ--");
 
     }
 

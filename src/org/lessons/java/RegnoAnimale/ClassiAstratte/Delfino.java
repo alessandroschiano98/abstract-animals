@@ -21,12 +21,18 @@ public class Delfino extends AnimaleAstratto implements Nuotante{
     }
 
     @Override
+    public void dorme() {
+        System.out.println("--Glu glu glu glu--");
+
+    }
+
+    @Override
     public String toString(){
         return "Delfino: " + getNome().toUpperCase() + " - " + getTipologia() + " - " + getCaratteristica();
     }
 
     @Override
     public void nuota() {
-        System.out.println(".. Sto nuotando .. ");
+        System.out.println(".. Sta nuotando .. ");
     }
 }
