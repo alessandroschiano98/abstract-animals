@@ -1,10 +1,10 @@
 package org.lessons.java.RegnoAnimale.ClassiAstratte;
 
-import org.lessons.java.RegnoAnimale.Animale;
+import org.lessons.java.RegnoAnimale.AnimaleAstratto;
 import org.lessons.java.RegnoAnimale.Interfacce.Volante;
 
 
-public class Passerotto extends Animale implements Volante{
+public class Passerotto extends AnimaleAstratto implements Volante{
 
     public Passerotto(String nome, String tipologia, String caratteristica){
         super(nome, tipologia,caratteristica);

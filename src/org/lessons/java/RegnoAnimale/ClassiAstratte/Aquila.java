@@ -1,9 +1,9 @@
 package org.lessons.java.RegnoAnimale.ClassiAstratte;
 
-import org.lessons.java.RegnoAnimale.Animale;
+import org.lessons.java.RegnoAnimale.AnimaleAstratto;
 import org.lessons.java.RegnoAnimale.Interfacce.Volante;
 
-public class Aquila extends Animale implements Volante {
+public class Aquila extends AnimaleAstratto implements Volante {
 
     public Aquila(String nome, String tipologia, String caratteristica) {
         super(nome, tipologia, caratteristica);

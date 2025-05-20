@@ -1,12 +1,12 @@
 package org.lessons.java.RegnoAnimale;
 
-public abstract class Animale {
+public abstract class AnimaleAstratto {
 
     private String nome; // ! ES: TIGRE
     private String tipologia; // ! ES: VOLATILE
     private String caratteristica; // ! ES: VELOCE
 
-    public Animale(String nome, String tipologia, String caratteristica) {
+    public AnimaleAstratto(String nome, String tipologia, String caratteristica) {
         this.nome = nome;
         this.tipologia = tipologia;
         this.caratteristica = caratteristica;

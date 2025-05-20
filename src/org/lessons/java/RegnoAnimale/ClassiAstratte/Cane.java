@@ -1,8 +1,8 @@
 package org.lessons.java.RegnoAnimale.ClassiAstratte;
 
-import org.lessons.java.RegnoAnimale.Animale;
+import org.lessons.java.RegnoAnimale.AnimaleAstratto;
 
-public class Cane extends Animale{
+public class Cane extends AnimaleAstratto{
 
     public Cane(String nome, String tipologia, String caratteristica){
         super(nome, tipologia,caratteristica);
