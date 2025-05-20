@@ -20,7 +20,7 @@ public class Cane extends Animale{
 
     @Override
     public String toString(){
-        return getNome().toUpperCase();
+        return "Cane: " + getNome().toUpperCase() + " - " + getTipologia() + " - " + getCaratteristica();
     }
 
 }

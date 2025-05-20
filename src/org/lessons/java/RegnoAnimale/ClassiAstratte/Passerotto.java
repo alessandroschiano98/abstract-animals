@@ -25,7 +25,7 @@ public class Passerotto extends Animale implements Volante{
 
     @Override
     public String toString(){
-        return getNome().toUpperCase();
+        return "Passerotto: " + getNome().toUpperCase() + " - " + getTipologia() + " - " + getCaratteristica();
     }
 
     @Override

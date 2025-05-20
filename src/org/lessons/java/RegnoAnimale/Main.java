@@ -9,35 +9,27 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Aquila aquilaReale = new Aquila("Aquila Reale", "Volatile", "Velocità sopra la media");
+        Aquila aquilaReale = new Aquila("Aquila Reale", "Volatile", "velocità sopra la media");
         System.out.println(aquilaReale.toString());
-        System.out.println(aquilaReale.getTipologia());
-        System.out.println(aquilaReale.getCaratteristica());
         aquilaReale.mangia();
         aquilaReale.verso();
         aquilaReale.dorme();
 
-        Cane caneMaremmano = new Cane("Pastore Maremmano", "Canide", "Resiste alle basse temperature");
+        Cane caneMaremmano = new Cane("Pastore Maremmano", "Canide", "resiste alle basse temperature");
         System.out.println(caneMaremmano.toString());
-        System.out.println(caneMaremmano.getTipologia());
-        System.out.println(caneMaremmano.getCaratteristica());
         caneMaremmano.mangia();
         caneMaremmano.verso();
         caneMaremmano.dorme();
 
-        Delfino delfinoGrampo = new Delfino("Delfino Grampo", "Cetaceo", "Vive sott'acqua");
+        Delfino delfinoGrampo = new Delfino("Delfino Grampo", "Cetaceo", "vive sott'acqua");
         System.out.println(delfinoGrampo.toString());
-        System.out.println(delfinoGrampo.getTipologia());
-        System.out.println(delfinoGrampo.getCaratteristica());
         delfinoGrampo.mangia();
         delfinoGrampo.verso();
         delfinoGrampo.dorme();
 
         Passerotto passerottoAlpino = new Passerotto("Fringuello Alpino", "Volatile",
-                "Può raggiungere fino a 3500m d'altezza");
+                "può raggiungere fino a 3500m d'altezza");
         System.out.println(passerottoAlpino.toString());
-        System.out.println(passerottoAlpino.getTipologia());
-        System.out.println(passerottoAlpino.getCaratteristica());
         passerottoAlpino.mangia();
         passerottoAlpino.verso();
         passerottoAlpino.dorme();

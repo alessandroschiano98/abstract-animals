@@ -22,7 +22,7 @@ public class Delfino extends Animale implements Nuotante{
 
     @Override
     public String toString(){
-        return getNome().toUpperCase();
+        return "Delfino: " + getNome().toUpperCase() + " - " + getTipologia() + " - " + getCaratteristica();
     }
 
     @Override

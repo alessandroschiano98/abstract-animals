@@ -22,7 +22,7 @@ public class Aquila extends Animale implements Volante {
 
     @Override
     public String toString() {
-        return getNome().toUpperCase();
+        return "Aquila: " + getNome().toUpperCase() + " - " + getTipologia() + " - " + getCaratteristica();
     }
 
     @Override
